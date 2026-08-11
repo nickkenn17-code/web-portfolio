@@ -71,30 +71,22 @@
 .font-instrument-sans {
   font-family: var(--font-instrument-sans);
 }
-</style>        <link rel="preload" as="style" href="/build/assets/app-Depg87sa.css" /><link rel="modulepreload" as="script" href="/build/assets/app-BHRWC8DQ.js" /><link rel="stylesheet" href="/build/assets/app-Depg87sa.css" /><script type="module" src="/build/assets/app-BHRWC8DQ.js"></script>    </head>
-    <body class="bg-[#F3F4F6] text-neutral-800 antialiased font-sans">
+</style>        <link rel="preload" as="style" href="/build/assets/app-B8S-kmDc.css" /><link rel="modulepreload" as="script" href="/build/assets/app-GT5tfl-Y.js" /><link rel="stylesheet" href="/build/assets/app-B8S-kmDc.css" /><script type="module" src="/build/assets/app-GT5tfl-Y.js"></script>    </head>
+    <body class="bg-white text-neutral-800 antialiased font-sans">
 
         
-        <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
-            <div class="absolute -top-40 left-1/4 h-[28rem] w-[28rem] animate-float rounded-full bg-indigo-200/50 blur-3xl"></div>
-            <div class="absolute -right-40 top-1/4 h-[26rem] w-[26rem] animate-float rounded-full bg-sky-200/50 blur-3xl"></div>
-            <div class="absolute -left-40 bottom-1/4 h-[26rem] w-[26rem] animate-float rounded-full bg-emerald-200/40 blur-3xl"></div>
+        <div class="fixed inset-x-0 top-0 z-[60] h-0.5 bg-neutral-100">
+            <div id="scroll-progress" class="h-full w-0 bg-neutral-900"></div>
         </div>
 
         
-        <div class="fixed inset-x-0 top-0 z-[60] h-1 bg-transparent">
-            <div id="scroll-progress" class="h-full w-0 bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500"></div>
-        </div>
-
-        
-        <header class="fixed inset-x-0 top-0 z-50 px-4 pt-4 sm:px-6">
-            <nav class="glass mx-auto flex h-14 max-w-5xl items-center justify-between rounded-full px-5 sm:px-6">
-                <a href="#home" class="text-base font-semibold tracking-tight text-neutral-900">
-                    
-                    <span class="text-indigo-600">·NK</span>
+        <header class="fixed inset-x-0 top-0 z-50 border-b border-neutral-200/70 bg-white/85 backdrop-blur-md">
+            <nav class="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
+                <a href="#home" class="text-lg font-bold tracking-tight text-neutral-900">
+                    NK<span class="text-indigo-600">.</span>
                 </a>
 
-                <div class="hidden items-center gap-7 text-sm font-medium md:flex">
+                <div class="hidden items-center gap-8 text-sm font-medium md:flex">
                     <a href="#about" class="nav-link text-neutral-500 transition-colors hover:text-neutral-900">About</a>
                     <a href="#skills" class="nav-link text-neutral-500 transition-colors hover:text-neutral-900">Skills</a>
                     <a href="#projects" class="nav-link text-neutral-500 transition-colors hover:text-neutral-900">Projects</a>
@@ -104,7 +96,7 @@
                     </a>
                 </div>
 
-                <button id="menu-toggle" class="rounded-lg p-2 text-neutral-700 hover:bg-white/60 md:hidden" aria-label="Toggle menu" aria-expanded="false">
+                <button id="menu-toggle" class="rounded-lg p-2 text-neutral-700 hover:bg-neutral-100 md:hidden" aria-label="Toggle menu" aria-expanded="false">
                     <svg class="icon-open h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
@@ -115,11 +107,11 @@
             </nav>
 
             
-            <div id="mobile-menu" class="glass mx-auto mt-2 hidden max-w-5xl flex-col gap-1 rounded-2xl p-3 md:hidden">
-                <a href="#about" class="nav-link rounded-xl px-4 py-3 text-sm font-medium text-neutral-700 transition-colors hover:bg-white/60 hover:text-neutral-900">About</a>
-                <a href="#skills" class="nav-link rounded-xl px-4 py-3 text-sm font-medium text-neutral-700 transition-colors hover:bg-white/60 hover:text-neutral-900">Skills</a>
-                <a href="#projects" class="nav-link rounded-xl px-4 py-3 text-sm font-medium text-neutral-700 transition-colors hover:bg-white/60 hover:text-neutral-900">Projects</a>
-                <a href="#experience" class="nav-link rounded-xl px-4 py-3 text-sm font-medium text-neutral-700 transition-colors hover:bg-white/60 hover:text-neutral-900">Experience</a>
+            <div id="mobile-menu" class="mx-auto hidden flex-col gap-1 border-t border-neutral-200/70 bg-white px-6 py-3 md:hidden">
+                <a href="#about" class="nav-link rounded-xl px-4 py-3 text-sm font-medium text-neutral-700 transition-colors hover:text-neutral-900">About</a>
+                <a href="#skills" class="nav-link rounded-xl px-4 py-3 text-sm font-medium text-neutral-700 transition-colors hover:text-neutral-900">Skills</a>
+                <a href="#projects" class="nav-link rounded-xl px-4 py-3 text-sm font-medium text-neutral-700 transition-colors hover:text-neutral-900">Projects</a>
+                <a href="#experience" class="nav-link rounded-xl px-4 py-3 text-sm font-medium text-neutral-700 transition-colors hover:text-neutral-900">Experience</a>
                 <a href="#contact" class="rounded-xl bg-neutral-900 px-4 py-3 text-sm font-medium text-white">Contact</a>
             </div>
         </header>
@@ -127,16 +119,16 @@
         <main>
                 <section id="home" class="relative">
     <div class="mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-6 py-28 text-center">
-        <span class="glass-soft reveal reveal-visible mb-8 inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-medium text-neutral-600">
-            <span class="h-2 w-2 rounded-full bg-emerald-500"></span>
+        <span class="reveal reveal-visible mb-10 inline-flex items-center gap-2 rounded-full border border-neutral-200 bg-white/70 px-4 py-1.5 text-xs font-medium tracking-wide text-neutral-600">
+            <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
             Available for internships &amp; opportunities
         </span>
 
-        <h1 class="reveal reveal-visible text-5xl font-bold tracking-tight text-neutral-900 sm:text-6xl lg:text-7xl">
+        <h1 class="reveal reveal-visible text-6xl font-bold leading-[0.95] tracking-tight text-neutral-900 sm:text-7xl lg:text-8xl">
             Nicholas Kenny
         </h1>
 
-        <p class="reveal reveal-visible mt-5 text-xl font-medium text-indigo-600 sm:text-2xl" style="--reveal-delay: 60ms">
+        <p class="reveal reveal-visible mt-6 text-xl font-medium text-indigo-600 sm:text-2xl" style="--reveal-delay: 60ms">
             Software Engineering Student
         </p>
 
@@ -170,45 +162,44 @@
             </svg>
         </a>
     </div>
-</section>
-    <section id="about" class="mx-auto max-w-5xl px-6 py-24">
+</section>    <section id="about" class="mx-auto max-w-5xl px-6 py-24">
     <div class="mb-12 text-center reveal">
         <h2 class="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">About Me</h2>
-        <div class="mx-auto mt-4 h-1 w-12 rounded-full bg-indigo-500/70"></div>
+        <div class="mx-auto mt-4 h-1 w-12 rounded-full bg-indigo-600/70"></div>
     </div>
 
     <div class="grid items-start gap-8 md:grid-cols-[300px_1fr]">
         <div class="glass-card reveal rounded-3xl p-6">
                             <img src="/images/profile.png" alt="Portrait of Nicholas Kenny"
-                    class="aspect-square w-full rounded-2xl object-cover shadow-inner" loading="lazy">
+                    class="aspect-square w-full rounded-2xl border border-neutral-100 object-cover" loading="lazy">
                         <dl class="mt-6 space-y-3 text-sm">
-                <div class="flex items-center justify-between gap-4 border-b border-white/60 pb-2.5">
+                <div class="flex items-center justify-between gap-4 border-b border-neutral-100 pb-2.5">
                     <dt class="text-neutral-500">Name</dt>
-                    <dd class="font-medium text-neutral-800">Nicholas Kenny</dd>
+                    <dd class="font-medium text-neutral-900">Nicholas Kenny</dd>
                 </div>
-                <div class="flex items-center justify-between gap-4 border-b border-white/60 pb-2.5">
+                <div class="flex items-center justify-between gap-4 border-b border-neutral-100 pb-2.5">
                     <dt class="text-neutral-500">University</dt>
-                    <dd class="text-right font-medium text-neutral-800">University of Jakarta International</dd>
+                    <dd class="text-right font-medium text-neutral-900">University of Jakarta International</dd>
                 </div>
-                <div class="flex items-center justify-between gap-4 border-b border-white/60 pb-2.5">
+                <div class="flex items-center justify-between gap-4 border-b border-neutral-100 pb-2.5">
                     <dt class="text-neutral-500">Major</dt>
-                    <dd class="font-medium text-neutral-800">Software Engineering</dd>
+                    <dd class="font-medium text-neutral-900">Software Engineering</dd>
                 </div>
-                <div class="flex items-center justify-between gap-4 border-b border-white/60 pb-2.5">
+                <div class="flex items-center justify-between gap-4 border-b border-neutral-100 pb-2.5">
                     <dt class="text-neutral-500">GPA</dt>
-                    <dd class="font-medium text-neutral-800">3.95 / 4.00</dd>
+                    <dd class="font-medium text-neutral-900">3.95 / 4.00</dd>
                 </div>
-                <div class="flex items-center justify-between gap-4 border-b border-white/60 pb-2.5">
+                <div class="flex items-center justify-between gap-4 border-b border-neutral-100 pb-2.5">
                     <dt class="text-neutral-500">Based in</dt>
-                    <dd class="text-right font-medium text-neutral-800">Depok, Indonesia</dd>
+                    <dd class="text-right font-medium text-neutral-900">Depok, Indonesia</dd>
                 </div>
-                <div class="flex items-center justify-between gap-4 border-b border-white/60 pb-2.5">
+                <div class="flex items-center justify-between gap-4 border-b border-neutral-100 pb-2.5">
                     <dt class="text-neutral-500">Email</dt>
                     <dd class="text-right font-medium text-indigo-600">nickkenn17@gmail.com</dd>
                 </div>
                 <div class="flex items-center justify-between gap-4">
                     <dt class="text-neutral-500">Phone</dt>
-                    <dd class="font-medium text-neutral-800">+62 813 9852 4717</dd>
+                    <dd class="font-medium text-neutral-900">+62 813 9852 4717</dd>
                 </div>
             </dl>
         </div>
@@ -228,19 +219,19 @@
                     <h4 class="text-sm font-semibold uppercase tracking-wide text-indigo-600">What I bring</h4>
                     <ul class="mt-4 space-y-3 text-sm text-neutral-600">
                                                     <li class="flex items-start gap-3">
-                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-500"></span>
+                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-900"></span>
                                 Full-stack development from database to UI
                             </li>
                                                     <li class="flex items-start gap-3">
-                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-500"></span>
+                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-900"></span>
                                 Strong foundation in QA, testing &amp; software quality
                             </li>
                                                     <li class="flex items-start gap-3">
-                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-500"></span>
+                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-900"></span>
                                 Creative design skills in 3D &amp; motion graphics
                             </li>
                                                     <li class="flex items-start gap-3">
-                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-500"></span>
+                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-900"></span>
                                 Experience shipping products under deadlines
                             </li>
                                             </ul>
@@ -249,19 +240,19 @@
                     <h4 class="text-sm font-semibold uppercase tracking-wide text-indigo-600">A few facts</h4>
                     <ul class="mt-4 space-y-3 text-sm text-neutral-600">
                                                     <li class="flex items-start gap-3">
-                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-500"></span>
+                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-900"></span>
                                 Garuda Hacks 7.0 participant — Indonesia&#039;s largest hackathon
                             </li>
                                                     <li class="flex items-start gap-3">
-                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-500"></span>
+                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-900"></span>
                                 Committee member, university IT exhibition team
                             </li>
                                                     <li class="flex items-start gap-3">
-                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-500"></span>
+                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-900"></span>
                                 Speaks Bahasa Indonesia, English &amp; Japanese (JLPT N4)
                             </li>
                                                     <li class="flex items-start gap-3">
-                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-500"></span>
+                                <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-900"></span>
                                 Produced an independent short film during high school
                             </li>
                                             </ul>
@@ -269,17 +260,16 @@
             </div>
         </div>
     </div>
-</section>
-    <section id="skills" class="mx-auto max-w-5xl px-6 py-24">
+</section>    <section id="skills" class="mx-auto max-w-5xl px-6 py-24">
     <div class="mb-12 text-center reveal">
         <h2 class="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">Skills</h2>
-        <div class="mx-auto mt-4 h-1 w-12 rounded-full bg-indigo-500/70"></div>
+        <div class="mx-auto mt-4 h-1 w-12 rounded-full bg-indigo-600/70"></div>
         <p class="mx-auto mt-4 max-w-xl text-neutral-600">The technologies and disciplines I use to design, build, test, and ship software.</p>
     </div>
 
     <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                    <div class="glass-card group reveal rounded-3xl p-6" style="--reveal-delay: 0ms">
-                <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-500/15 text-indigo-600 transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-6">
+                    <div class="glass-card group reveal flex flex-col rounded-3xl p-6">
+                <div class="flex h-11 w-11 items-center justify-center rounded-xl border border-neutral-200 bg-neutral-50 text-neutral-900 transition-colors duration-300 group-hover:border-neutral-900 group-hover:bg-neutral-900 group-hover:text-white">
                     <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
                     </svg>
@@ -299,8 +289,8 @@
                                             <span class="skill-tag">Progressive Web Apps</span>
                                     </div>
             </div>
-                    <div class="glass-card group reveal rounded-3xl p-6" style="--reveal-delay: 70ms">
-                <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-sky-500/15 text-sky-600 transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-6">
+                    <div class="glass-card group reveal flex flex-col rounded-3xl p-6">
+                <div class="flex h-11 w-11 items-center justify-center rounded-xl border border-neutral-200 bg-neutral-50 text-neutral-900 transition-colors duration-300 group-hover:border-neutral-900 group-hover:bg-neutral-900 group-hover:text-white">
                     <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 5.625c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
                     </svg>
@@ -318,8 +308,8 @@
                                             <span class="skill-tag">Redis</span>
                                     </div>
             </div>
-                    <div class="glass-card group reveal rounded-3xl p-6" style="--reveal-delay: 140ms">
-                <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-emerald-500/15 text-emerald-600 transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-6">
+                    <div class="glass-card group reveal flex flex-col rounded-3xl p-6">
+                <div class="flex h-11 w-11 items-center justify-center rounded-xl border border-neutral-200 bg-neutral-50 text-neutral-900 transition-colors duration-300 group-hover:border-neutral-900 group-hover:bg-neutral-900 group-hover:text-white">
                     <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
                     </svg>
@@ -333,8 +323,8 @@
                                             <span class="skill-tag">Lighthouse Audits</span>
                                     </div>
             </div>
-                    <div class="glass-card group reveal rounded-3xl p-6" style="--reveal-delay: 0ms">
-                <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-rose-500/15 text-rose-600 transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-6">
+                    <div class="glass-card group reveal flex flex-col rounded-3xl p-6">
+                <div class="flex h-11 w-11 items-center justify-center rounded-xl border border-neutral-200 bg-neutral-50 text-neutral-900 transition-colors duration-300 group-hover:border-neutral-900 group-hover:bg-neutral-900 group-hover:text-white">
                     <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42" />
                     </svg>
@@ -349,8 +339,8 @@
                                             <span class="skill-tag">After Effects</span>
                                     </div>
             </div>
-                    <div class="glass-card group reveal rounded-3xl p-6" style="--reveal-delay: 70ms">
-                <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-violet-500/15 text-violet-600 transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-6">
+                    <div class="glass-card group reveal flex flex-col rounded-3xl p-6">
+                <div class="flex h-11 w-11 items-center justify-center rounded-xl border border-neutral-200 bg-neutral-50 text-neutral-900 transition-colors duration-300 group-hover:border-neutral-900 group-hover:bg-neutral-900 group-hover:text-white">
                     <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
                     </svg>
@@ -363,8 +353,8 @@
                                             <span class="skill-tag">Japanese (JLPT N4)</span>
                                     </div>
             </div>
-                    <div class="glass-card group reveal rounded-3xl p-6" style="--reveal-delay: 140ms">
-                <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-amber-500/15 text-amber-600 transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-6">
+                    <div class="glass-card group reveal flex flex-col rounded-3xl p-6">
+                <div class="flex h-11 w-11 items-center justify-center rounded-xl border border-neutral-200 bg-neutral-50 text-neutral-900 transition-colors duration-300 group-hover:border-neutral-900 group-hover:bg-neutral-900 group-hover:text-white">
                     <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m6-1.13a4 4 0 10-4-6.926 4 4 0 004 6.926zM12 8a4 4 0 100-8 4 4 0 000 8z" />
                     </svg>
@@ -383,11 +373,10 @@
                                     </div>
             </div>
             </div>
-</section>
-    <section id="projects" class="mx-auto max-w-5xl px-6 py-24">
+</section>    <section id="projects" class="mx-auto max-w-5xl px-6 py-24">
     <div class="mb-10 text-center reveal">
         <h2 class="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">Projects</h2>
-        <div class="mx-auto mt-4 h-1 w-12 rounded-full bg-indigo-500/70"></div>
+        <div class="mx-auto mt-4 h-1 w-12 rounded-full bg-indigo-600/70"></div>
         <p class="mx-auto mt-4 max-w-xl text-neutral-600">Academic projects, hackathon work, and hands-on builds. Click a card to see the full story.</p>
     </div>
 
@@ -444,19 +433,21 @@
                 class="glass-card group reveal flex flex-col overflow-hidden rounded-3xl"
                 style="--reveal-delay: 0ms">
                 <button type="button" data-project="lumiora" class="flex flex-1 flex-col text-left" aria-label="Open details for Lumiora Cafe App">
-                                            <div class="flex h-36 items-center justify-center bg-gradient-to-br from-indigo-400/50 via-indigo-200/60 to-white text-5xl transition-transform duration-500 group-hover:scale-105">
-                            ☕
-                        </div>
-                                        <div class="flex flex-1 flex-col p-7">
+                    <div class="overflow-hidden">
+                                                    <div class="flex aspect-[16/10] items-center justify-center bg-neutral-100 text-6xl transition-transform duration-500 group-hover:scale-105">
+                                ☕
+                            </div>
+                                            </div>
+                    <div class="flex flex-1 flex-col p-7">
                         <div class="flex items-start justify-between gap-3">
                             <h3 class="text-xl font-semibold text-neutral-900">Lumiora Cafe App</h3>
-                            <span class="glass-soft shrink-0 rounded-full px-3 py-1 text-xs font-medium text-indigo-700">Full-Stack</span>
+                            <span class="shrink-0 rounded-full border border-neutral-200 bg-white px-3 py-1 text-xs font-medium text-neutral-700">Full-Stack</span>
                         </div>
                         <p class="mt-3 flex-1 text-sm leading-relaxed text-neutral-600">A mobile menu app and custom backend for a local cafe — CMS for real-time menu updates plus a kitchen display system that streams orders to staff.</p>
                         <div class="mt-5 flex flex-wrap gap-2">
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Node.js</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">PostgreSQL</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">REST API</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Node.js</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">PostgreSQL</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">REST API</span>
                                                     </div>
                         <span class="mt-5 inline-flex items-center gap-1 text-sm font-medium text-indigo-600 transition-colors group-hover:text-indigo-800">
                             View details
@@ -471,20 +462,22 @@
                 class="glass-card group reveal flex flex-col overflow-hidden rounded-3xl"
                 style="--reveal-delay: 90ms">
                 <button type="button" data-project="safestep" class="flex flex-1 flex-col text-left" aria-label="Open details for SafeStep — Garuda Hacks 7.0">
-                                            <div class="flex h-36 items-center justify-center bg-gradient-to-br from-emerald-400/50 via-emerald-200/60 to-white text-5xl transition-transform duration-500 group-hover:scale-105">
-                            🛡️
-                        </div>
-                                        <div class="flex flex-1 flex-col p-7">
+                    <div class="overflow-hidden">
+                                                    <div class="flex aspect-[16/10] items-center justify-center bg-neutral-100 text-6xl transition-transform duration-500 group-hover:scale-105">
+                                🛡️
+                            </div>
+                                            </div>
+                    <div class="flex flex-1 flex-col p-7">
                         <div class="flex items-start justify-between gap-3">
                             <h3 class="text-xl font-semibold text-neutral-900">SafeStep — Garuda Hacks 7.0</h3>
-                            <span class="glass-soft shrink-0 rounded-full px-3 py-1 text-xs font-medium text-indigo-700">Hackathon</span>
+                            <span class="shrink-0 rounded-full border border-neutral-200 bg-white px-3 py-1 text-xs font-medium text-neutral-700">Hackathon</span>
                         </div>
                         <p class="mt-3 flex-1 text-sm leading-relaxed text-neutral-600">A mobile safety app built in just 30 hours at one of Indonesia&#039;s largest hackathons. Led UI/UX and frontend, then demoed the live prototype to industry judges.</p>
                         <div class="mt-5 flex flex-wrap gap-2">
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">React</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Expo</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Node.js</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">UI/UX</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">React</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Expo</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Node.js</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">UI/UX</span>
                                                     </div>
                         <span class="mt-5 inline-flex items-center gap-1 text-sm font-medium text-indigo-600 transition-colors group-hover:text-indigo-800">
                             View details
@@ -499,19 +492,21 @@
                 class="glass-card group reveal flex flex-col overflow-hidden rounded-3xl"
                 style="--reveal-delay: 0ms">
                 <button type="button" data-project="portal" class="flex flex-1 flex-col text-left" aria-label="Open details for University Information Portal">
-                                            <div class="flex h-36 items-center justify-center bg-gradient-to-br from-amber-400/50 via-amber-200/60 to-white text-5xl transition-transform duration-500 group-hover:scale-105">
-                            🎓
-                        </div>
-                                        <div class="flex flex-1 flex-col p-7">
+                    <div class="overflow-hidden">
+                                                    <div class="flex aspect-[16/10] items-center justify-center bg-neutral-100 text-6xl transition-transform duration-500 group-hover:scale-105">
+                                🎓
+                            </div>
+                                            </div>
+                    <div class="flex flex-1 flex-col p-7">
                         <div class="flex items-start justify-between gap-3">
                             <h3 class="text-xl font-semibold text-neutral-900">University Information Portal</h3>
-                            <span class="glass-soft shrink-0 rounded-full px-3 py-1 text-xs font-medium text-indigo-700">Web Design</span>
+                            <span class="shrink-0 rounded-full border border-neutral-200 bg-white px-3 py-1 text-xs font-medium text-neutral-700">Web Design</span>
                         </div>
                         <p class="mt-3 flex-1 text-sm leading-relaxed text-neutral-600">A comprehensive multi-page web portal for an Information System study program, with clear navigation for specialized academic tracks like digital banking and IT governance.</p>
                         <div class="mt-5 flex flex-wrap gap-2">
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Web Design</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Information Architecture</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">UX</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Web Design</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Information Architecture</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">UX</span>
                                                     </div>
                         <span class="mt-5 inline-flex items-center gap-1 text-sm font-medium text-indigo-600 transition-colors group-hover:text-indigo-800">
                             View details
@@ -526,22 +521,24 @@
                 class="glass-card group reveal flex flex-col overflow-hidden rounded-3xl"
                 style="--reveal-delay: 90ms">
                 <button type="button" data-project="cloud-game" class="flex flex-1 flex-col text-left" aria-label="Open details for Cloud Multiplayer Game">
-                                            <div class="flex h-36 items-center justify-center bg-gradient-to-br from-sky-400/50 via-sky-200/60 to-white text-5xl transition-transform duration-500 group-hover:scale-105">
-                            🎮
-                        </div>
-                                        <div class="flex flex-1 flex-col p-7">
+                    <div class="overflow-hidden">
+                                                    <div class="flex aspect-[16/10] items-center justify-center bg-neutral-100 text-6xl transition-transform duration-500 group-hover:scale-105">
+                                🎮
+                            </div>
+                                            </div>
+                    <div class="flex flex-1 flex-col p-7">
                         <div class="flex items-start justify-between gap-3">
                             <h3 class="text-xl font-semibold text-neutral-900">Cloud Multiplayer Game</h3>
-                            <span class="glass-soft shrink-0 rounded-full px-3 py-1 text-xs font-medium text-indigo-700">Cloud &amp; DevOps</span>
+                            <span class="shrink-0 rounded-full border border-neutral-200 bg-white px-3 py-1 text-xs font-medium text-neutral-700">Cloud &amp; DevOps</span>
                         </div>
                         <p class="mt-3 flex-1 text-sm leading-relaxed text-neutral-600">A real-time multiplayer combat simulation deployed as containerized microservices on Google Cloud — RabbitMQ for messaging, Redis for game state, PostgreSQL and MongoDB for data.</p>
                         <div class="mt-5 flex flex-wrap gap-2">
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Docker</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">RabbitMQ</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Redis</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Google Cloud</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">PostgreSQL</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">MongoDB</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Docker</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">RabbitMQ</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Redis</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Google Cloud</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">PostgreSQL</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">MongoDB</span>
                                                     </div>
                         <span class="mt-5 inline-flex items-center gap-1 text-sm font-medium text-indigo-600 transition-colors group-hover:text-indigo-800">
                             View details
@@ -556,20 +553,22 @@
                 class="glass-card group reveal flex flex-col overflow-hidden rounded-3xl"
                 style="--reveal-delay: 0ms">
                 <button type="button" data-project="security-audit" class="flex flex-1 flex-col text-left" aria-label="Open details for Security Risk Assessment">
-                                            <div class="flex h-36 items-center justify-center bg-gradient-to-br from-rose-400/50 via-rose-200/60 to-white text-5xl transition-transform duration-500 group-hover:scale-105">
-                            🔐
-                        </div>
-                                        <div class="flex flex-1 flex-col p-7">
+                    <div class="overflow-hidden">
+                                                    <div class="flex aspect-[16/10] items-center justify-center bg-neutral-100 text-6xl transition-transform duration-500 group-hover:scale-105">
+                                🔐
+                            </div>
+                                            </div>
+                    <div class="flex flex-1 flex-col p-7">
                         <div class="flex items-start justify-between gap-3">
                             <h3 class="text-xl font-semibold text-neutral-900">Security Risk Assessment</h3>
-                            <span class="glass-soft shrink-0 rounded-full px-3 py-1 text-xs font-medium text-indigo-700">Security</span>
+                            <span class="shrink-0 rounded-full border border-neutral-200 bg-white px-3 py-1 text-xs font-medium text-neutral-700">Security</span>
                         </div>
                         <p class="mt-3 flex-1 text-sm leading-relaxed text-neutral-600">A structured cybersecurity audit of the Indodax exchange against NIST CSF 2.0 and ISO 27001, aligned with Indonesian data protection law (UU PDP No. 27/2022).</p>
                         <div class="mt-5 flex flex-wrap gap-2">
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">NIST CSF 2.0</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">ISO 27001</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Zero Trust</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Risk Analysis</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">NIST CSF 2.0</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">ISO 27001</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Zero Trust</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Risk Analysis</span>
                                                     </div>
                         <span class="mt-5 inline-flex items-center gap-1 text-sm font-medium text-indigo-600 transition-colors group-hover:text-indigo-800">
                             View details
@@ -584,20 +583,22 @@
                 class="glass-card group reveal flex flex-col overflow-hidden rounded-3xl"
                 style="--reveal-delay: 90ms">
                 <button type="button" data-project="predictive-ml" class="flex flex-1 flex-col text-left" aria-label="Open details for Predictive Analytics in Education">
-                                            <div class="flex h-36 items-center justify-center bg-gradient-to-br from-violet-400/50 via-violet-200/60 to-white text-5xl transition-transform duration-500 group-hover:scale-105">
-                            📊
-                        </div>
-                                        <div class="flex flex-1 flex-col p-7">
+                    <div class="overflow-hidden">
+                                                    <div class="flex aspect-[16/10] items-center justify-center bg-neutral-100 text-6xl transition-transform duration-500 group-hover:scale-105">
+                                📊
+                            </div>
+                                            </div>
+                    <div class="flex flex-1 flex-col p-7">
                         <div class="flex items-start justify-between gap-3">
                             <h3 class="text-xl font-semibold text-neutral-900">Predictive Analytics in Education</h3>
-                            <span class="glass-soft shrink-0 rounded-full px-3 py-1 text-xs font-medium text-indigo-700">AI &amp; Data</span>
+                            <span class="shrink-0 rounded-full border border-neutral-200 bg-white px-3 py-1 text-xs font-medium text-neutral-700">AI &amp; Data</span>
                         </div>
                         <p class="mt-3 flex-1 text-sm leading-relaxed text-neutral-600">A two-level stacking ensemble model (SVM + Neural Network) that predicts student academic performance, with feature importance analysis and class-imbalance handling.</p>
                         <div class="mt-5 flex flex-wrap gap-2">
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Python</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">SVM</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Neural Networks</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Ensemble Learning</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Python</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">SVM</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Neural Networks</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Ensemble Learning</span>
                                                     </div>
                         <span class="mt-5 inline-flex items-center gap-1 text-sm font-medium text-indigo-600 transition-colors group-hover:text-indigo-800">
                             View details
@@ -612,20 +613,22 @@
                 class="glass-card group reveal flex flex-col overflow-hidden rounded-3xl"
                 style="--reveal-delay: 0ms">
                 <button type="button" data-project="agrisense" class="flex flex-1 flex-col text-left" aria-label="Open details for AgriSense &amp; Robotics">
-                                            <div class="flex h-36 items-center justify-center bg-gradient-to-br from-teal-400/50 via-teal-200/60 to-white text-5xl transition-transform duration-500 group-hover:scale-105">
-                            🌱
-                        </div>
-                                        <div class="flex flex-1 flex-col p-7">
+                    <div class="overflow-hidden">
+                                                    <div class="flex aspect-[16/10] items-center justify-center bg-neutral-100 text-6xl transition-transform duration-500 group-hover:scale-105">
+                                🌱
+                            </div>
+                                            </div>
+                    <div class="flex flex-1 flex-col p-7">
                         <div class="flex items-start justify-between gap-3">
                             <h3 class="text-xl font-semibold text-neutral-900">AgriSense &amp; Robotics</h3>
-                            <span class="glass-soft shrink-0 rounded-full px-3 py-1 text-xs font-medium text-indigo-700">IoT</span>
+                            <span class="shrink-0 rounded-full border border-neutral-200 bg-white px-3 py-1 text-xs font-medium text-neutral-700">IoT</span>
                         </div>
                         <p class="mt-3 flex-1 text-sm leading-relaxed text-neutral-600">An automated IoT irrigation system on an ESP32 with the Blynk cloud, plus an obstacle-avoidance robot — both demonstrated live at the university IT exhibition.</p>
                         <div class="mt-5 flex flex-wrap gap-2">
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">ESP32</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">IoT</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">C++</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Blynk</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">ESP32</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">IoT</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">C++</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Blynk</span>
                                                     </div>
                         <span class="mt-5 inline-flex items-center gap-1 text-sm font-medium text-indigo-600 transition-colors group-hover:text-indigo-800">
                             View details
@@ -640,20 +643,22 @@
                 class="glass-card group reveal flex flex-col overflow-hidden rounded-3xl"
                 style="--reveal-delay: 90ms">
                 <button type="button" data-project="multimedia-3d" class="flex flex-1 flex-col text-left" aria-label="Open details for Multimedia &amp; 3D Design">
-                                            <div class="flex h-36 items-center justify-center bg-gradient-to-br from-fuchsia-400/50 via-fuchsia-200/60 to-white text-5xl transition-transform duration-500 group-hover:scale-105">
-                            🎬
-                        </div>
-                                        <div class="flex flex-1 flex-col p-7">
+                    <div class="overflow-hidden">
+                                                    <div class="flex aspect-[16/10] items-center justify-center bg-neutral-100 text-6xl transition-transform duration-500 group-hover:scale-105">
+                                🎬
+                            </div>
+                                            </div>
+                    <div class="flex flex-1 flex-col p-7">
                         <div class="flex items-start justify-between gap-3">
                             <h3 class="text-xl font-semibold text-neutral-900">Multimedia &amp; 3D Design</h3>
-                            <span class="glass-soft shrink-0 rounded-full px-3 py-1 text-xs font-medium text-indigo-700">Creative</span>
+                            <span class="shrink-0 rounded-full border border-neutral-200 bg-white px-3 py-1 text-xs font-medium text-neutral-700">Creative</span>
                         </div>
                         <p class="mt-3 flex-1 text-sm leading-relaxed text-neutral-600">Professional visual assets — book covers, product mockups, and promotions — plus an independent short film directed and produced from cinematography to final render.</p>
                         <div class="mt-5 flex flex-wrap gap-2">
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Maya</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Blender</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Figma</span>
-                                                            <span class="rounded-full border border-white/50 bg-white/60 px-2.5 py-1 text-xs text-neutral-700">Premiere Pro</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Maya</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Blender</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Figma</span>
+                                                            <span class="rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700">Premiere Pro</span>
                                                     </div>
                         <span class="mt-5 inline-flex items-center gap-1 text-sm font-medium text-indigo-600 transition-colors group-hover:text-indigo-800">
                             View details
@@ -665,46 +670,45 @@
                 </button>
             </article>
             </div>
-</section>
-    <section id="experience" class="mx-auto max-w-5xl px-6 py-24">
+</section>    <section id="experience" class="mx-auto max-w-5xl px-6 py-24">
     <div class="mb-12 text-center reveal">
         <h2 class="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">Experience</h2>
-        <div class="mx-auto mt-4 h-1 w-12 rounded-full bg-indigo-500/70"></div>
+        <div class="mx-auto mt-4 h-1 w-12 rounded-full bg-indigo-600/70"></div>
         <p class="mx-auto mt-4 max-w-xl text-neutral-600">Where I've worked, interned, and gotten involved.</p>
     </div>
 
     <div class="relative mx-auto max-w-3xl">
-        <div class="absolute bottom-6 left-5 top-6 w-px bg-gradient-to-b from-indigo-400/60 via-neutral-200 to-emerald-400/60"></div>
+        <div class="absolute bottom-6 left-5 top-6 w-px bg-neutral-200"></div>
 
         <div class="space-y-8">
                             <div class="glass-card reveal relative rounded-3xl p-7 pl-14" style="--reveal-delay: 0ms">
-                    <span class="absolute left-5 top-8 h-3 w-3 -translate-x-1/2 rounded-full bg-indigo-500 ring-4 ring-white/60"></span>
+                    <span class="absolute left-5 top-8 h-3 w-3 -translate-x-1/2 rounded-full bg-neutral-900 ring-4 ring-white"></span>
                     <h3 class="text-lg font-semibold text-neutral-900">Internship — Content Management, Visual Designer &amp; Editor</h3>
-                    <p class="mt-1 text-sm font-medium text-indigo-600">Briz Entertainment · Jakarta · June 2023 — Oct 2023</p>
+                    <p class="mt-1 text-sm font-medium text-neutral-600">Briz Entertainment · Jakarta · June 2023 — Oct 2023</p>
                     <p class="mt-3 text-sm leading-relaxed text-neutral-600">An entertainment agency specializing in digital content creation, commercial video production, and talent management.</p>
                     <ul class="mt-4 space-y-2 text-sm text-neutral-600">
                                                     <li class="flex items-start gap-2.5">
-                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-500"></span>
+                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-900"></span>
                                 Operated camera gear and shot promotional TV commercial content for major brands, including Cedea Brand.
                             </li>
                                                     <li class="flex items-start gap-2.5">
-                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-500"></span>
+                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-900"></span>
                                 Ran a weekly pipeline of post-production editing and visual design across multiple YouTube channels.
                             </li>
                                                     <li class="flex items-start gap-2.5">
-                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-500"></span>
+                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-900"></span>
                                 Designed and animated branded video bumpers that boosted channel identity and viewer retention.
                             </li>
                                                     <li class="flex items-start gap-2.5">
-                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-500"></span>
+                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-900"></span>
                                 Collaborated with the creative team on content strategy and supported daily artist and talent coordination.
                             </li>
                                             </ul>
                 </div>
                             <div class="glass-card reveal relative rounded-3xl p-7 pl-14" style="--reveal-delay: 90ms">
-                    <span class="absolute left-5 top-8 h-3 w-3 -translate-x-1/2 rounded-full bg-neutral-400 ring-4 ring-white/60"></span>
+                    <span class="absolute left-5 top-8 h-3 w-3 -translate-x-1/2 rounded-full bg-neutral-300 ring-4 ring-white"></span>
                     <h3 class="text-lg font-semibold text-neutral-900">Freelance Motion Graphics &amp; Video Editor</h3>
-                    <p class="mt-1 text-sm font-medium text-indigo-600">Self-Employed · Remote (Global Client) · Nov 2023 — Dec 2024</p>
+                    <p class="mt-1 text-sm font-medium text-neutral-600">Self-Employed · Remote (Global Client) · Nov 2023 — Dec 2024</p>
                     <p class="mt-3 text-sm leading-relaxed text-neutral-600">Remote digital media services delivered to an international clientele, managed independently across global time zones.</p>
                     <ul class="mt-4 space-y-2 text-sm text-neutral-600">
                                                     <li class="flex items-start gap-2.5">
@@ -722,32 +726,31 @@
                                             </ul>
                 </div>
                             <div class="glass-card reveal relative rounded-3xl p-7 pl-14" style="--reveal-delay: 180ms">
-                    <span class="absolute left-5 top-8 h-3 w-3 -translate-x-1/2 rounded-full bg-emerald-500 ring-4 ring-white/60"></span>
+                    <span class="absolute left-5 top-8 h-3 w-3 -translate-x-1/2 rounded-full bg-neutral-300 ring-4 ring-white"></span>
                     <h3 class="text-lg font-semibold text-neutral-900">Committee Member — IT Exhibition Team</h3>
-                    <p class="mt-1 text-sm font-medium text-indigo-600">University Student Association · Jakarta · Sep 2024 — Present</p>
+                    <p class="mt-1 text-sm font-medium text-neutral-600">University Student Association · Jakarta · Sep 2024 — Present</p>
                     <p class="mt-3 text-sm leading-relaxed text-neutral-600">Active member organizing tech events and representing the software engineering program to prospective students.</p>
                     <ul class="mt-4 space-y-2 text-sm text-neutral-600">
                                                     <li class="flex items-start gap-2.5">
-                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-500"></span>
+                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-400"></span>
                                 Helped organize and run the campus open house for visiting attendees.
                             </li>
                                                     <li class="flex items-start gap-2.5">
-                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-500"></span>
+                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-400"></span>
                                 Demonstrated student-built tech — the AgriSense IoT system and obstacle-avoidance robot — at the exhibition booth.
                             </li>
                                                     <li class="flex items-start gap-2.5">
-                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-500"></span>
+                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-400"></span>
                                 Handled technical setup and engaged visitors about the software engineering curriculum.
                             </li>
                                             </ul>
                 </div>
                     </div>
     </div>
-</section>
-    <section id="education" class="mx-auto max-w-5xl px-6 py-24">
+</section>    <section id="education" class="mx-auto max-w-5xl px-6 py-24">
     <div class="mb-12 text-center reveal">
         <h2 class="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">Education</h2>
-        <div class="mx-auto mt-4 h-1 w-12 rounded-full bg-indigo-500/70"></div>
+        <div class="mx-auto mt-4 h-1 w-12 rounded-full bg-indigo-600/70"></div>
         <p class="mx-auto mt-4 max-w-xl text-neutral-600">My academic journey, from multimedia into software engineering.</p>
     </div>
 
@@ -758,7 +761,7 @@
                         <h3 class="text-xl font-semibold text-neutral-900">University of Jakarta International</h3>
                         <p class="mt-1 text-base font-medium text-neutral-700">Bachelor of IT — Software Engineering · GPA 3.95/4.00</p>
                     </div>
-                    <span class="glass-soft rounded-full px-4 py-1.5 text-sm font-medium text-neutral-600">Sep 2024 — Aug 2027</span>
+                    <span class="rounded-full border border-neutral-200 bg-white px-4 py-1.5 text-sm font-medium text-neutral-600">Sep 2024 — Aug 2027</span>
                 </div>
                 <p class="mt-4 text-sm leading-relaxed text-neutral-600">Focused on building strong engineering fundamentals with hands-on projects across full-stack development, cloud computing, security, and machine learning. Coursework spans the whole software lifecycle — from requirements and design, through construction, testing, and quality management.</p>
                                     <div class="mt-5 flex flex-wrap gap-2">
@@ -780,7 +783,7 @@
                         <h3 class="text-xl font-semibold text-neutral-900">Grafika Desa Putera Vocational School</h3>
                         <p class="mt-1 text-base font-medium text-neutral-700">Senior Vocational High School — Multimedia Major</p>
                     </div>
-                    <span class="glass-soft rounded-full px-4 py-1.5 text-sm font-medium text-neutral-600">Jul 2021 — May 2024</span>
+                    <span class="rounded-full border border-neutral-200 bg-white px-4 py-1.5 text-sm font-medium text-neutral-600">Jul 2021 — May 2024</span>
                 </div>
                 <p class="mt-4 text-sm leading-relaxed text-neutral-600">Where my creative foundation was built. I learned multimedia production, graphic design, and 3D — and completed a wide range of design projects, from book covers and product mockups to directing an independent short film.</p>
                                     <div class="mt-5 flex flex-wrap gap-2">
@@ -795,12 +798,11 @@
                                             </div>
                             </div>
             </div>
-</section>
-    <section id="contact" class="mx-auto max-w-5xl px-6 py-24">
+</section>    <section id="contact" class="mx-auto max-w-5xl px-6 py-24">
     <div class="mx-auto max-w-2xl">
         <div class="glass-card reveal rounded-3xl p-8 text-center sm:p-12">
             <h2 class="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">Let's Connect</h2>
-            <div class="mx-auto mt-4 h-1 w-12 rounded-full bg-indigo-500/70"></div>
+            <div class="mx-auto mt-4 h-1 w-12 rounded-full bg-indigo-600/70"></div>
             <p class="mx-auto mt-6 max-w-xl text-base leading-relaxed text-neutral-600">
                 I'm always open to internship opportunities, collaborations, or just a chat about tech and design.
                 Whether you have a project in mind or want to talk software, my inbox is always open.
@@ -832,18 +834,17 @@
             </p>
         </div>
     </div>
-</section>
-        </main>
+</section>        </main>
 
-        <footer class="glass-soft mt-10">
-            <div class="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 px-6 py-10 text-sm text-neutral-500 sm:flex-row">
+        <footer class="border-t border-neutral-200">
+            <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-10 text-sm text-neutral-500 sm:flex-row">
                 <p>© 2026 Nicholas Kenny. Built with Laravel &amp; Tailwind CSS.</p>
                 <p>Software Engineering Student</p>
             </div>
         </footer>
 
         
-        <button id="back-to-top" class="glass pointer-events-none fixed bottom-6 right-6 z-40 flex h-12 w-12 items-center justify-center rounded-full text-neutral-800 opacity-0 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg" aria-label="Back to top">
+        <button id="back-to-top" class="pointer-events-none fixed bottom-6 right-6 z-40 flex h-11 w-11 items-center justify-center rounded-full border border-neutral-300 bg-white text-neutral-800 opacity-0 shadow-md transition-all duration-300 hover:-translate-y-1 hover:border-neutral-900" aria-label="Back to top">
             <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
             </svg>
@@ -852,11 +853,11 @@
             <script id="projects-data" type="application/json">[{"id":"lumiora","name":"Lumiora Cafe App","emoji":"☕","image":null,"gradient":"from-indigo-400/50 via-indigo-200/60 to-white","category":"Full-Stack","description":"A mobile menu application and custom backend system built for a local cafe brand. I architected the whole system end-to-end: a customer-facing mobile ordering experience on the front, and a Node.js + PostgreSQL backend powering a dedicated CMS for real-time menu updates and a kitchen display system that streams orders straight to staff — replacing manual paper tickets and speeding up fulfillment.","highlights":["Custom CMS for instant menu & inventory changes","Kitchen display system for real-time order handling","Full-stack: mobile UI to PostgreSQL database"],"tags":["Node.js","PostgreSQL","REST API"]},{"id":"safestep","name":"SafeStep — Garuda Hacks 7.0","emoji":"🛡️","image":null,"gradient":"from-emerald-400/50 via-emerald-200/60 to-white","category":"Hackathon","description":"Collaborated in an intensive 30-hour, in-person hackathon — Indonesia's largest — to turn an idea for a personal safety app into a working prototype. I led UI/UX design and frontend development with React and Expo, integrated it seamlessly with a Node.js backend under strict time constraints, designed the pitch deck, and delivered a live technical demonstration of the functional prototype to an industry judging panel.","highlights":["UI/UX design & frontend lead under a 30-hour deadline","Live functional demo delivered to industry judges","Full pitch deck designed for the competition"],"tags":["React","Expo","Node.js","UI/UX"]},{"id":"portal","name":"University Information Portal","emoji":"🎓","image":null,"gradient":"from-amber-400/50 via-amber-200/60 to-white","category":"Web Design","description":"Designed a comprehensive, multi-page web portal tailored for an Information System study program. I structured user navigation paths and page layouts around how students actually search for information, building dedicated sections and layouts for specialized academic tracks including digital banking and IT governance. The focus was clear information architecture and usability across every page.","highlights":["Clear information architecture across multi-page flow","Dedicated layouts for digital banking & IT governance tracks","Usability-first design for prospective students"],"tags":["Web Design","Information Architecture","UX"]},{"id":"cloud-game","name":"Cloud Multiplayer Game","emoji":"🎮","image":null,"gradient":"from-sky-400/50 via-sky-200/60 to-white","category":"Cloud & DevOps","description":"Engineered and deployed a real-time multiplayer combat simulation game as containerized microservices with Docker on a Google Cloud virtual machine. I configured the advanced backend infrastructure — RabbitMQ for message queuing between services and Redis for state management — then verified and integrated both PostgreSQL and MongoDB database environments to ensure seamless real-time data handling.","highlights":["Containerized microservices deployed on Google Cloud","RabbitMQ message queuing + Redis game state","PostgreSQL & MongoDB integrated for real-time data"],"tags":["Docker","RabbitMQ","Redis","Google Cloud","PostgreSQL","MongoDB"]},{"id":"security-audit","name":"Security Risk Assessment","emoji":"🔐","image":null,"gradient":"from-rose-400/50 via-rose-200/60 to-white","category":"Security","description":"Conducted a cybersecurity audit of Indodax using the NIST CSF 2.0 framework to evaluate the exchange's organizational defenses and compliance with ISO 27001. I assessed Management, Technical, and Operational controls, ensuring strict alignment with Indonesian data protection regulations (UU PDP No. 27/2022), and developed a Tier 4 Target Profile recommending Zero Trust architecture, physical security keys, and AI-driven SOAR technologies for automated threat containment.","highlights":["NIST CSF 2.0 + ISO 27001 compliance assessment","Reviewed against UU PDP No. 27/2022","Recommended Zero Trust & AI-driven SOAR profile"],"tags":["NIST CSF 2.0","ISO 27001","Zero Trust","Risk Analysis"]},{"id":"predictive-ml","name":"Predictive Analytics in Education","emoji":"📊","image":null,"gradient":"from-violet-400/50 via-violet-200/60 to-white","category":"AI & Data","description":"Engineered a two-level stacking ensemble machine learning model combining SVM and Neural Network base learners to predict student academic performance. I executed feature importance analysis to identify the critical academic predictors — establishing in-class engagement and homework as the primary indicators of success — and evaluated model performance using Binary Cross-Entropy and classification metrics, successfully addressing challenges related to class imbalance and dataset overfitting.","highlights":["Two-level stacking ensemble (SVM + Neural Network)","Feature importance & predictor analysis","Handled class imbalance & overfitting"],"tags":["Python","SVM","Neural Networks","Ensemble Learning"]},{"id":"agrisense","name":"AgriSense & Robotics","emoji":"🌱","image":null,"gradient":"from-teal-400/50 via-teal-200/60 to-white","category":"IoT","description":"Engineered an automated IoT irrigation system utilizing an ESP32 microcontroller and the Blynk cloud platform for a competitive IT exhibition. I also programmed an obstacle-avoidance robot, effectively demonstrating sensor integration and logic workflows. Both systems were showcased live at the university's IT exhibition booth, including to prospective students during the campus open house.","highlights":["ESP32 + Blynk cloud irrigation automation","Obstacle-avoidance robot with sensor integration","Demonstrated live at the university IT exhibition"],"tags":["ESP32","IoT","C++","Blynk"]},{"id":"multimedia-3d","name":"Multimedia & 3D Design","emoji":"🎬","image":null,"gradient":"from-fuchsia-400/50 via-fuchsia-200/60 to-white","category":"Creative","description":"Executed a diverse range of graphic design projects, producing professional visual assets for book covers, product mockups, and promotional materials. I also directed and produced an independent short film, managing all aspects of cinematography, video editing, and final post-production rendering. This creative foundation is the design sensibility I bring to every product's visual polish.","highlights":["Graphic design: book covers, mockups, promos","Independent short film — directed & produced","3D modeling in Maya and Blender"],"tags":["Maya","Blender","Figma","Premiere Pro"]}]</script>
 
     <div id="project-modal" class="pointer-events-none fixed inset-0 z-[70] flex items-center justify-center p-4 opacity-0 transition-opacity duration-200">
-        <div class="absolute inset-0 bg-neutral-900/50 backdrop-blur-sm" aria-hidden="true"></div>
+        <div class="absolute inset-0 bg-neutral-900/60 backdrop-blur-sm" aria-hidden="true"></div>
         <div id="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="project-modal-title"
             class="glass relative max-h-[85vh] w-full max-w-2xl scale-95 overflow-y-auto rounded-3xl p-7 opacity-0 shadow-2xl transition-all duration-200 sm:p-8">
             <button id="project-modal-close" type="button"
-                class="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-white/70 text-neutral-600 transition-all hover:bg-white hover:text-neutral-900"
+                class="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full border border-neutral-200 bg-white text-neutral-600 transition-all hover:bg-neutral-900 hover:text-white"
                 aria-label="Close">
                 <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
